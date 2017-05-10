@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FeatureView" customModule="ScrollViewPage" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="463" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0,99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jn3-gu-aBH">
+                    <rect key="frame" x="38" y="134" width="46" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="SOO-aN-fcW">
+                    <rect key="frame" x="311" y="65" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="0cR-QK-Puc"/>
+                        <constraint firstAttribute="height" constant="120" id="oe7-fH-Zz6"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A great feature" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZ0-Xp-H3X">
+                    <rect key="frame" x="38" y="65" width="179" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fD-9C-ewH">
+                    <rect key="frame" x="38" y="155" width="120" height="30"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <state key="normal" title="Purchase feature">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erj-TU-D5x">
+                    <rect key="frame" x="214" y="208" width="34" height="30"/>
+                    <state key="normal" title="Back"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.18431372549019609" green="0.18431372549019609" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="cZ0-Xp-H3X" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="65" id="3QT-pa-r3A"/>
+                <constraint firstItem="SOO-aN-fcW" firstAttribute="top" secondItem="cZ0-Xp-H3X" secondAttribute="top" id="NWV-XS-j3G"/>
+                <constraint firstAttribute="bottom" secondItem="erj-TU-D5x" secondAttribute="bottom" constant="12" id="Ywu-c6-zEO"/>
+                <constraint firstItem="jn3-gu-aBH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="38" id="bHm-4U-lCb"/>
+                <constraint firstAttribute="trailing" secondItem="SOO-aN-fcW" secondAttribute="trailing" constant="32" id="bUv-Cn-XxN"/>
+                <constraint firstItem="5fD-9C-ewH" firstAttribute="leading" secondItem="jn3-gu-aBH" secondAttribute="leading" id="jR6-is-SBZ"/>
+                <constraint firstItem="jn3-gu-aBH" firstAttribute="top" secondItem="cZ0-Xp-H3X" secondAttribute="bottom" constant="36" id="jpQ-cT-Irf"/>
+                <constraint firstItem="erj-TU-D5x" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="puc-Fb-KhU"/>
+                <constraint firstItem="cZ0-Xp-H3X" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="38" id="qcc-o5-cDQ"/>
+                <constraint firstItem="5fD-9C-ewH" firstAttribute="top" secondItem="jn3-gu-aBH" secondAttribute="bottom" id="wKG-LR-bfG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backButton" destination="erj-TU-D5x" id="PzO-iT-Tnx"/>
+                <outlet property="featureImageView" destination="SOO-aN-fcW" id="BPg-db-d5j"/>
+                <outlet property="priceLabel" destination="jn3-gu-aBH" id="1Bd-GZ-qGo"/>
+                <outlet property="purchaseButton" destination="5fD-9C-ewH" id="jsD-IK-3WF"/>
+                <outlet property="titleLabel" destination="cZ0-Xp-H3X" id="crN-sX-Lug"/>
+            </connections>
+            <point key="canvasLocation" x="79.5" y="255"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="2" width="250" height="250"/>
+    </resources>
+</document>
