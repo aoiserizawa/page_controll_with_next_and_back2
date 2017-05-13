@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74A9D9961EC731C000A53FBD /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A9D9951EC731C000A53FBD /* Form.swift */; };
 		9E1F79D71DF165400064067A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1F79D61DF165400064067A /* AppDelegate.swift */; };
 		9E1F79D91DF165400064067A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1F79D81DF165400064067A /* ViewController.swift */; };
 		9E1F79DC1DF165400064067A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1F79DA1DF165400064067A /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74A9D9951EC731C000A53FBD /* Form.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
 		9E1F79D31DF165400064067A /* ScrollViewPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1F79D61DF165400064067A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E1F79D81DF165400064067A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				9E1F79D61DF165400064067A /* AppDelegate.swift */,
 				9E1F79D81DF165400064067A /* ViewController.swift */,
 				9E1F79EA1DF165720064067A /* FeatureView.swift */,
+				74A9D9951EC731C000A53FBD /* Form.swift */,
 				9E1F79E81DF165670064067A /* Feature.xib */,
 				9E1F79DA1DF165400064067A /* Main.storyboard */,
 				9E1F79DD1DF165400064067A /* Assets.xcassets */,
@@ -102,7 +105,7 @@
 				TargetAttributes = {
 					9E1F79D21DF1653F0064067A = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = SBWZW765RG;
+						DevelopmentTeam = GDP27GN3M4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E1F79EB1DF165720064067A /* FeatureView.swift in Sources */,
+				74A9D9961EC731C000A53FBD /* Form.swift in Sources */,
 				9E1F79D91DF165400064067A /* ViewController.swift in Sources */,
 				9E1F79D71DF165400064067A /* AppDelegate.swift in Sources */,
 			);
@@ -267,7 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SBWZW765RG;
+				DEVELOPMENT_TEAM = GDP27GN3M4;
 				INFOPLIST_FILE = ScrollViewPage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brianadvent.ScrollViewPage;
@@ -280,7 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SBWZW765RG;
+				DEVELOPMENT_TEAM = GDP27GN3M4;
 				INFOPLIST_FILE = ScrollViewPage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brianadvent.ScrollViewPage;
@@ -308,6 +312,7 @@
 				9E1F79E71DF165400064067A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
